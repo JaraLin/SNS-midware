@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+	<typeAliases>
+		<typeAlias alias="HttpService" type="co.emml.manager.entities.EN_HttpService" />
+	</typeAliases>
+	<mappers>
+
+		<mapper resource="co/emml/manager/dbservice/HttpServiceMapper.xml" />
+		<mapper resource="co/emml/manager/dbservice/HttpServiceParameterMapper.xml" />
+		<mapper resource="co/emml/manager/dbservice/EmmlScriptMapper.xml" />
+		<mapper resource="co/emml/manager/dbservice/SettingMapper.xml" />
+	</mappers>
+
+</configuration>

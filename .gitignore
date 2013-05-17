@@ -1,0 +1,6 @@
+#Ignore these files and folders
+.hg
+.hgignore
+target
+logs
+build
